@@ -19,7 +19,7 @@ for(let i of pokemons.slice(0,100)) {
 }
 elList.appendChild(elFragment);
 
-function pages (i,j) {
-    elList.innerHTML = "";
-}
-elAllBtn.addEventListener('click', () => {pages(0,10)})
+// function pages (i,j) {
+//     elList.innerHTML = "";
+// }
+// elAllBtn.addEventListener('click', () => {pages(0,10)})

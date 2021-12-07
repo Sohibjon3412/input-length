@@ -1,0 +1,70 @@
+.pocedex {
+
+  &__sec {
+    // width: 100%;
+  }
+
+  &__list {
+    display: flex;
+    @include list-unstyled;
+    flex-flow: row wrap;
+  }
+
+  &__template {
+  }
+
+  &__item {
+    margin-bottom: 20px;
+    // width: 30%;
+    height: 300px;
+  }
+
+  &__wrap {
+    
+    padding: 15px;
+    border: 1px solid #000;
+
+  }
+
+  &__img-sec {
+    background-color: #ccc;
+    width: 100%;
+  }
+
+  &__img {
+    width: 100%;
+    height: 200px;
+  }
+
+  &__title {
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  &__number {
+    text-align: center;
+  }
+}
+.container {
+}
+.sort {
+
+  &__all {
+  }
+
+  &__btn1 {
+  }
+
+  &__btn2 {
+  }
+
+  &__btn3 {
+  }
+
+  &__btn4 {
+  }
+
+  &__btn5 {
+  }
+}
